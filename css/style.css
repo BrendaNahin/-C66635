@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: hwb(0 67% 3% / 0.393);
 }
+
 .btn {
     background-color: aliceblue;
 }
@@ -14,6 +16,7 @@ body {
     color: red;
     font-size: 1.2rem;
 }
+
 .nav-item {
     margin: 1px;
     padding: 1px;
@@ -23,6 +26,7 @@ body {
 .nav-item:hover {
     background-color: rgba(124, 57, 57, 0.308);
 }
+
 button {
     border-color: black;
 }
@@ -38,15 +42,15 @@ h2 {
 
 }
 
-footer{
-    
+footer {
+
     color: white;
     text-align: center;
     font-size: 15px;
 }
 
 footer .redes a {
-    color:rgba(207, 23, 23, 0.9);
+    color: rgba(207, 23, 23, 0.9);
     font-size: 25px;
     letter-spacing: 20px;
 }
@@ -57,20 +61,20 @@ footer .redes a:hover {
 
 
 /* Small */
-@media (min-width: 576px) { }
+@media (min-width: 576px) {}
 
 /* Medium */
-@media (min-width: 768px) { }
+@media (min-width: 768px) {}
 
 /* Large */
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
     .nav-item:hover {
         background-color: transparent;
     }
 }
 
 /* X-Large */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {}
 
 /* XX-Large */
-@media (min-width: 1400px) {  }
+@media (min-width: 1400px) {}
