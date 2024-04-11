@@ -4,12 +4,13 @@
 }
 
 body {
-    background-color: hwb(0 67% 3%/0.393);
+    background-color: hwb(0 67% 3% / 0.393);
 }
 
 .btn {
     background-color: aliceblue;
 }
+
 
 .nav-link {
     color: red;
@@ -34,11 +35,15 @@ h2 {
     font-size: 26px;
 }
 
+
+
 .card {
     margin: 20px;
+
 }
 
 footer {
+
     color: white;
     text-align: center;
     font-size: 15px;
@@ -54,8 +59,13 @@ footer .redes a:hover {
     color: red;
 }
 
+
 /* Small */
+@media (min-width: 576px) {}
+
 /* Medium */
+@media (min-width: 768px) {}
+
 /* Large */
 @media (min-width: 992px) {
     .nav-item:hover {
@@ -64,6 +74,7 @@ footer .redes a:hover {
 }
 
 /* X-Large */
-/* XX-Large */
+@media (min-width: 1200px) {}
 
-/*# sourceMappingURL=style.css.map */
+/* XX-Large */
+@media (min-width: 1400px) {}
