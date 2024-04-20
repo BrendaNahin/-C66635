@@ -49,19 +49,46 @@
         <!-- Navbar Finaliza -->
     </header>
 
-    <main>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sed eligendi perspiciatis, eveniet
-                animi sapiente veritatis delectus, dolore unde aliquam numquam alias eum minima in accusantium,
-                assumenda error fugiat nostrum harum iste illum soluta voluptatum! Molestiae nostrum, enim saepe iste
-                laboriosam culpa natus blanditiis facere aliquid minus eius necessitatibus tenetur ipsum aliquam velit
-                expedita. Nemo quaerat veniam ullam voluptates amet consequuntur iste ratione, tempore debitis quod
-                maiores asperiores porro aut, architecto rerum praesentium omnis saepe maxime! Tempora harum praesentium
-                rem blanditiis totam perferendis quisquam, illo mollitia dolore ducimus sunt saepe adipisci velit iusto,
-                quidem id deleniti ut exercitationem eos ipsam!</p>
-        </div>
-    </main>
+    <main id="News">
+        <h1>Enterate todo en esta seccion</h1>
 
+
+        <div class="container-fluid">
+
+            <section class="noticia1 row align-items-lg-center">
+                <article class="col-12 col-lg-7 order-lg-1"> 
+                    <h3>Lewis Hamilton y su pase de Mercedes a Ferrari en 2025: “Hay gente que sigue hablando m...”</h3>
+                    <p>“Creo que no necesito reivindicar mi decisión, sé lo que es correcto para mí. Y eso no ha
+                        cambiado
+                        desde el momento en que tomé la decisión, no ha habido ningún momento en el que me la haya
+                        cuestionado, y no me he dejado influir por los comentarios de los demás”. Así de tajante se
+                        pronunció Lewis Hamilton sobre su pase de Mercedes a Ferrari, que se concretará en 2025.</p>
+                </article>
+                <article class="col-12 col-lg-5"> 
+                    <img src="../assets/Imagenes/noticia1.jpeg" alt="NoticiaLewis">
+                </article>
+
+            </section>
+
+            <section class="sec1 row align-items-lg-center">
+                <article class="col-12 col-lg-4 "> 
+                    <h3>LOS EQUIPOS DE F1 DISCUTIRÁN UN POSIBLE CAMBIO INMEDIATO EN LAS REGLAS</h3>
+                    <p>Los equipos de Fórmula 1 y los jefes del campeonato van a debatir un cambio en las reglas de salida en un intento de poner orden en una zona gris sobre posibles infracciones no castigadas.</p>
+                </article>
+                <article class="col-12 col-lg-4 "> 
+                    <h3>COMIENZAN LAS REUNIONES DE LA COMISION</h3>
+                    <p>Uno de los puntos que se debatirán en la reunión de la Comisión de Fórmula 1 de la próxima semana es si la forma en la que está redactado el reglamento para los adelantamientos en las salidas es adecuado para su propósito.</p>
+                </article>
+                <article class="col-12 col-lg-4"> 
+                    <img src="../assets/Imagenes/noticias2.webp" alt="NoticiaFia">
+                </article>
+            </section>
+
+
+        </div>
+
+    </main>
+    <div id="particles-js"> </div>
 
     <footer class="footer bg-dark p-3">
         <p>Derechos reservados por Copyright</p>
@@ -72,10 +99,125 @@
                 <a href="https://web.whatsapp.com/" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
                 <a href="https://www.youtube.com/@Formula1" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </nav>
-
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../assets/particles/particles.min.js"></script>
+    <script>
+        particlesJS(
+            {
+                "particles": {
+                    "number": {
+                        "value": 14,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ca2222"
+                    },
+                    "shape": {
+                        "type": "polygon",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000"
+                        },
+                        "polygon": {
+                            "nb_sides": 6
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.216,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 160,
+                        "random": false,
+                        "anim": {
+                            "enable": true,
+                            "speed": 10,
+                            "size_min": 40,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": false,
+                        "distance": 200,
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "width": 2
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 8,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "bounce": false,
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": false,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": false,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            }
+        )
+    </script>
 </body>
 
 </html>
