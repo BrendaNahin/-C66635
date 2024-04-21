@@ -4,8 +4,8 @@
 }
 
 body {
-  background-color: #ffffff;
-  background-image: linear-gradient(0deg, #ffffff 0%, #ff8362 33%, #FF0000 66%, #ac4d4d 100%);
+  background-color: #d82626;
+  background-image: linear-gradient(180deg, #d82626 0%, #d13838 24%, #d15d5d 66%, #de9898 100%);
 }
 
 .btn {
@@ -31,32 +31,41 @@ button {
   border-color: black;
 }
 
-h2 {
-  font-size: 28px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 p {
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.card {
+h1 {
   margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-#particles-js {
-  background-color: grey;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  z-index: -1;
+h2 {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-size: 36px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.noticia1 {
+h3 {
+  font-size: 24px;
+}
+
+h4 {
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+h5 {
+  margin: 5px;
+  padding: 5px;
 }
 
 .sec1 {
@@ -78,6 +87,28 @@ footer .redes a {
 
 footer .redes a:hover {
   color: red;
+}
+
+.iframe {
+  margin: 0;
+  padding: 5px;
+}
+
+.hotnews {
+  margin: 0;
+  padding: 5px;
+}
+
+.card {
+  margin: 20px;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
 }
 
 /* Small */
