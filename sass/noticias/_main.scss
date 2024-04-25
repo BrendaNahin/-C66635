@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 .iframe {
     margin: 0;
@@ -14,10 +18,88 @@
 
 }
 
+.noticiaLewis {
+    margin: 10px;
+    padding: 10px;
+}
+
+.articleOne {
+    margin: 20px;
+    padding: 20px;
+}
+
+.encabezadoLewis {
+    margin: 20px;
+    padding: 20px;
+}
+
+.parrafoLewis {
+    margin: 20px;
+    margin: 20px;
+}
+
+.lewis {
+    width: auto;
+}
+
+
+.sec1 {
+    margin: 20px;
+    padding: 20px;
+}
+
 #particles-js {
     position: fixed;
     width: 100%;
     height: 100%;
     top: 0;
     z-index: -1;
+}
+
+@media screen and (min-width: 480px) {
+    .articleOne {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .lewis {
+        width: 100%;
+    }
+
+    .encabezadoLewis {
+        width: 100%;
+    }
+
+    .parrafoLewis {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .iframeOne {
+
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .iframeTwo {
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .iframeThree {
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+        align-items: center;
+    }
+
 }
