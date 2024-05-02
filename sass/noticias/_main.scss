@@ -56,6 +56,49 @@
     z-index: -1;
 }
 
+button {
+    border-color: black;
+}
+
+
+p {
+    font-size: 20px;
+    font-family: $font-p;
+}
+
+h1 {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: $font-titulos;
+}
+
+h2 {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: $font-titulos;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+h5 { 
+    margin: 5px;
+    padding: 5px;
+}
+
 @media screen and (min-width: 480px) {
     .articleOne {
         width: 100%;
