@@ -384,20 +384,6 @@ body {
   background-color: rgb(181, 141, 141);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.portadaimg {
-  height: 654px;
-}
-
-.titulocom {
-  position: absolute;
-}
-
 button {
   border-color: black;
 }
@@ -408,11 +394,11 @@ p {
 }
 
 h1 {
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
+  margin: 0;
+  padding: 100px;
   font-size: 36px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 0);
 }
 
 h2 {
@@ -524,6 +510,85 @@ footer .redes a:hover {
   color: red;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.textocomunidad {
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.portada {
+  background-image: url(../assets/Imagenes/comunidad3.jpg);
+  min-height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.galeria {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  padding: 20px;
+  grid-gap: 20px;
+}
+
+.tgaleria {
+  color: white;
+  text-shadow: 0 0 10px black;
+}
+
+.item {
+  border: 5px solid black;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.item1 {
+  background-image: url(../assets/Imagenes/galeria1.jpg);
+}
+
+.item2 {
+  background-image: url(../assets/Imagenes/galeria2.avif);
+}
+
+.item3 {
+  background-image: url(../assets/Imagenes/galeria3.jpg);
+}
+
+.item4 {
+  background-image: url(../assets/Imagenes/galeria4.jpg);
+}
+
+.item5 {
+  background-image: url(../assets/Imagenes/galeria5.jpeg);
+}
+
+.item6 {
+  background-image: url(../assets/Imagenes/galeria6.jpg);
+}
+
+.item7 {
+  background-image: url(../assets/Imagenes/galeria7.jpeg);
+}
+
+.item8 {
+  background-image: url(../assets/Imagenes/galeria8.jpeg);
+}
+
+@media only screen and (min-width: 480px) {
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
+}
 /* Small */
 /* Medium */
 /* Large */
