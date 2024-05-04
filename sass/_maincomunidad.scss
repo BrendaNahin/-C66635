@@ -9,10 +9,11 @@
 }
 .portada {
     background-image: url(../assets/Imagenes/comunidad3.jpg );
-    min-height: 100vh;
-    position: relative;
     background-size: cover;
     background-position: center;
+    min-height: auto;
+    min-width: auto;
+    
 }
 
 
@@ -74,5 +75,5 @@ text-shadow: 0 0 10px black;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(4, 200px);
     }
-    
+
 }
