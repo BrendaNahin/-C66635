@@ -589,6 +589,46 @@ footer .redes a:hover {
     grid-template-rows: repeat(4, 200px);
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.haprende {
+  background-image: url(../assets/Imagenes/parallax1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: auto;
+  min-width: auto;
+}
+
+.texto-1 {
+  position: center;
+  text-shadow: 0 0 20px red;
+  font-size: 3rem;
+  color: white;
+}
+
+.primer-p {
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-weight: bold;
+}
+
+.segundo-p {
+  margin: 20px;
+  padding: 20px;
+  color: black;
+}
+
+.tercer-p {
+  color: white;
+  text-shadow: 0 0 5px black;
+}
+
 /* Small */
 /* Medium */
 /* Large */
