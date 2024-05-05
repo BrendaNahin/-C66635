@@ -592,7 +592,6 @@ footer .redes a:hover {
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .haprende {
@@ -601,11 +600,12 @@ footer .redes a:hover {
   background-position: center;
   min-height: auto;
   min-width: auto;
+  background-attachment: fixed;
 }
 
 .texto-1 {
   position: center;
-  text-shadow: 0 0 20px red;
+  text-shadow: 0 0 5px rgb(117, 7, 7);
   font-size: 3rem;
   color: white;
 }
@@ -613,8 +613,9 @@ footer .redes a:hover {
 .primer-p {
   margin: 20px;
   padding: 20px;
+  text-align: center;
   color: white;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 5px black;
   font-weight: bold;
 }
 
@@ -629,6 +630,30 @@ footer .redes a:hover {
   text-shadow: 0 0 5px black;
 }
 
+@media only screen and (max-width: 576px) {
+  .segundo-p {
+    display: none;
+  }
+  .cajita {
+    display: flex;
+    flex-direction: column;
+  }
+  .primer-pic {
+    width: 300px;
+  }
+  .segunda-pic {
+    width: 300px;
+  }
+  .tercera-pic {
+    width: 300px;
+  }
+  .cuarta-pic {
+    width: 300px;
+  }
+  .quinta-pic {
+    width: 300px;
+  }
+}
 /* Small */
 /* Medium */
 /* Large */
