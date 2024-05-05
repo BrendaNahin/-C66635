@@ -191,7 +191,7 @@ footer .redes a:hover {
 }
 
 body {
-  background-color: rgb(211, 130, 130);
+  background-color: linear-gradient(180deg, #f28080 0%, #f09191 24%, #f0b2af 66%, #f2d5d5 100%);
 }
 
 .btn {
@@ -361,7 +361,8 @@ footer .redes a:hover {
 }
 
 body {
-  background-color: rgb(211, 130, 130);
+  background-color: #f2bebe;
+  background-image: linear-gradient(0deg, #f2bebe 0%, #f9a497 36%, #f69395 66%, #f6686a 100%);
   background-image: url(../assets2/images/comunidad1.jpg);
 }
 
@@ -447,7 +448,8 @@ footer .redes a:hover {
 }
 
 body {
-  background-color: rgb(211, 130, 130);
+  background-color: #f2bebe;
+  background-image: linear-gradient(0deg, #f2bebe 0%, #f9a497 36%, #f69395 66%, #f6686a 100%);
 }
 
 .btn {
