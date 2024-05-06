@@ -188,6 +188,7 @@ footer .redes a:hover {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -300,6 +301,10 @@ video {
 
 button {
   border-color: black;
+}
+
+.card {
+  box-shadow: 5px 5px 5px black;
 }
 
 p {
